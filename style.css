@@ -1,0 +1,24 @@
+.navbar {
+  background-color: #73a9ad;
+}
+
+.jumbotron {
+  padding-top: 200px;
+  background-color: #73a9ad;
+  padding-bottom: 150px;
+  padding-left: 100px;
+}
+
+.container h2 {
+  font-size: 80px;
+  margin-top: 100px;
+  margin-bottom: 70px;
+}
+
+#visi {
+  background-color: #73a9ad;
+  font-size: 30px;
+}
+body {
+  font-family: "montserrat";
+}
