@@ -6,152 +6,225 @@
     <title>Pondok pesantren Miftahus Sa'adah</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MIFTAHUS SA'ADAH</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg fixed-top font">
+      <div class="container-fluid p-2">
+        <a class="navbar-brand text-light" href="#" style="font-size: 25px;">MIFTAHUS SA'ADAH</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Kegitan</a>
+              <a class="nav-link text-light" href="#">Kegitan</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Akademik </a>
+            <li class="nav-item dropdown ">
+              <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Akademik </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Raudathul Atfal</a></li>
+                <li><a class="dropdown-item" href="#">Admin Web</a></li>
+                <li><a class="dropdown-item" href="http://rdmifdah-44213.portmap.io:44213/" target="_blank">Login RDM</a></li>
+
+                <!-- <li><a class="dropdown-item" href="#">Raudathul Atfal</a></li>
                 <li><a class="dropdown-item" href="#">Madrasah Diniyah Awaliyah</a></li>
-                <li><a class="dropdown-item" href="#">Madrasah Ibtidiyah</a></li>
+                <li><a class="dropdown-item" href="#">Madrasah Ibtidiyah</a></li> -->
               </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Fasilitas</a>
+                <a class="nav-link text-light" href="#">Fasilitas</a>
               </li>  
               <li class="nav-item">
-                <a class="nav-link" href="#">Galeri</a>  
+                <a class="nav-link text-light" href="#">Galeri</a>  
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Program</a>
+                    <a class="nav-link text-light" href="#">Program</a>
                   </li>
               </li>
           </ul>
+          
+          </ul>
           <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-            <button class="btn btn-success" type="submit">Search</button>
+            <input class="form-control me-2" type="search" placeholder="Cari Disini" aria-label="Search" />
+            <button class="btn btn-success me-2" type="submit" >Search</button>
+            <!-- <a class="btn btn-dark border-light " href="http://192.168.1.1:808/" target="_blank">Login</a> -->
+
           </form>
         </div>
       </div>
     </nav>
     <!-- akhir navbar -->
+
     <!-- jumbotron -->
     <div class="jumbotron">
-      <h1 class="display-4">YAYASAN PONDOK PESANTREN<br> MIFTAHUS SA'ADAH</h1><br>
-      <Ini class="lead">Ini adalah website resmi Ponpes Miftahus Sa'adah .</p>
-      <p>Alamat : Dusun pahing RT 06 RW 02 Desak Kalimanggis wetan Kec. Kalimanggis.</p>
+      <h1 class="display-4 text-light">YAYASAN PONDOK PESANTREN<br> MIFTAHUS SA'ADAH</h1><br>
+       <p class="lead text-light">Alamat : Dusun pahing RT 06 RW 02 Desa Kalimanggis wetan Kec. Kalimanggis<br>
+        Kab. Kuningan Jawa Barat 45594</p>
+        <br>
+        <a class="btn btn-success border-dark" style="font-family: Montserrat;" href="#">Selengkapnya </i></a>
   </div>
     <!-- Akhir jumbotron -->
 <!-- logo akademik -->
 <section id="logo">
-  <div class="container">
+  <div class="container font">
     <div class="row text-center mb-4">
       <div class="col">
-        <h2>مفتاح سعاده</h2>
+        <h2>مفتاح السعادة</h2>
       </div>
     </div>
     <div class="row py-2 text-center">
       <div class="col-md-4">
-        <img src="ra.png" width="200px" alt=""><br><br>
-        <p class="btn btn-primary">RAUDATHUL ATFHAL</p>
+        <img src="img/ra.png" width="200px" alt=""><br><br>
+        <p>RAUDATHUL ATFHAL</p>
       </div>
       <div class="col-md-4">
-        <img src="dta.png" width="200px" alt=""><br><br>
-        <p class="btn btn-primary">DINIYAH TAKMILIYAH AWALIYAH</p>
+        <img src="img/dta.png" width="200px" alt=""><br><br>
+        <p>DINIYAH TAKMILIYAH AWALIYAH</p>
       </div>
       <div class="col-md-4">
-        <img src="mi.png" width="200px" alt=""><br><br>
-        <p class="btn btn-primary">MADRASAH IBTIDIYAH</p>
+        <img src="img/mi.png" width="200px" alt=""><br><br>
+        <p>MADRASAH IBTIDAIYAH</p>
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#73a9ad" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 <!-- akhir logo -->
+<section class="murid font">
+  <h3 class="text-center" style="font-size: 40px;"> Jumlah Murid</h3>
+  <div class="row justify-content-center font">
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card shadow h-100 py-2" style="background-color: #73a9ad;">
+        <div class="card-body">
+          <i class="bi-people-fill  " style="font-size: 2rem;"></i>
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-light text-uppercase mb-1"> Raudathul Atfal</div>
+              <div class="h5 mb-0 font-weight-bold text-light -800 bi">50 Siswa</div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-comments fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card  shadow h-100 py-2" style="background-color: #73a9ad;">
+        <div class="card-body">
+          <i class="bi-people-fill" style="font-size: 2rem;"></i>
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-light text-uppercase mb-1"> Diniyah Takmiliyah Awaliyah</div>
+              <div class="h5 mb-0 font-weight-bold text-light -800">50 Siswa</div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-comments fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><div class="col-xl-3 col-md-6 mb-4">
+      <div class="card shadow h-100 py-2" style="background-color: #73a9ad;">
+        <div class="card-body">
+          <i class="bi-people-fill" style="font-size: 2rem;"></i>
+          <div class="row no-gutters align-items-center">
+            <div class="col mr-2">
+              <div class="text-xs font-weight-bold text-light text-uppercase mb-1"> Madrasah Ibtidaiyah</div>
+              <div class="h5 mb-0 font-weight-bold text-light -800">50 Siswa</div>
+            </div>
+            <div class="col-auto">
+              <i class="fas fa-comments fa-2x text-gray-300"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- visi -->
 <section id="visi">
-<div class="container py-2 px-2">
-  <div class="row text-center justify-content-center">
-      <div class="col-md-5 ">
-          <h2>Visi</h2>
-          <p>Menjadi Lembaga Pendidikan yang Profesional dan unggul dalam menyiapkan Generasi Robbani yang Berprestasi dan Berdaya Saing Global</p>
+<div class="container font">
+  <div class="row justify-content-center">
+      <div class="col-md-5" style="padding-right: 100px;">
+          <h3 style="font-size: 50px;">Visi</h3>
+          <p style="padding-top: 20px;">Menjadi Lembaga Pendidikan yang Profesional dan unggul dalam menyiapkan Generasi Robbani yang Berprestasi dan Berdaya Saing Global</p>
       </div>
-      <div class="col-md-7">
-          <h2>Misi</h2>
-          <p>Mewujudkan Lembaga Pendidikan yang Modern, Akuntabel, Transparan, dan Kompetitif</p>
-          <p>Mewujudkan Generasi penghafal Al Qur`an dan alhadits yang berakhlak mulia</p>
+      <div class="col-md-5">
+          <h3 style="font-size: 50px;">Misi</h3>
+          <p style="padding-bottom: 20px; padding-top: 20px">Mewujudkan Lembaga Pendidikan yang Modern, Akuntabel, Transparan, dan Kompetitif</p>
+          <p style="padding-bottom: 20px;">Mewujudkan Generasi penghafal Al Qur`an dan alhadits yang berakhlak mulia</p>
           <p>Menyiapkan Generasi yang mampu mengoptimalkan Kemampuan Intelektual, Fisik, emosional, dan Spiritual</p>
       </div>
   </div>
 </div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 <!-- akhir visi -->
+
 <!-- Project -->
-<section id="project">
-  <div class="container py-2">
-    <div class="row text-center mb-4">
+<section id="Galeri">
+  <div class="container">
+
+    <div class="row text-center font">
       <div class="col">
-        <h2>Galeri Kegiatan</h2>
+        <h3>Galeri Kegitan</h3>
       </div>
     </div>
-    <div class="row py-2">
-      <div class="col-md-4">
-        <div class="card">
-          <img src="1.jpg" height="300px" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text text-center">Aksi bela palestina</p>
-          </div>
-        </div>
-      </div>
 
-      <div class="col-md-4">
-        <div class="card">
-          <img src="2.jpg" height="300px" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text text-center">Manasik Haji</p>
-          </div>
-        </div>
+    <div class="row mt-5">
+      <div class="col-md-4 p-2">
+        <img src="img/1.jpg" class="card-img-top" alt="">
+      </div> 
+      <div class="col-md-4 p-2">
+        <img src="img/2.jpg" class="card-img-top" alt="">
+      </div>
+       <div class="col-md-4">
+        <img src="img/3.jpg" class="card-img-top" alt="">
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-8 p-2">
+        <img src="img/5.jpg" class="card-img-top" calt="">
       </div>
       <div class="col-md-4">
-        <div class="card">
-          <img src="3.jpg" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <p class="card-text text-center">Sholat Duha Berjamaah</p>
-          </div>
-        </div>
+        <img src="img/4.jpg" height="374px" class="card-img-top" calt="">
+      </div>
+    </div>
+
+    <div class="row mt-2">
+      <div class="col-md-4 p-2">
+        <img src="img/7.jpg" height="374px"  class="card-img-top" calt="">
+      </div>
+      <div class="col-md-8">
+        <img src="img/6.jpg" class="card-img-top" calt="">
+      </div>
+    </div>
+
+    <div class="row mt-2 mb-5">
+      <div class="col-md-6 p-2">
+        <img src="img/8.jpg" class="card-img-top" calt="">
+      </div>
+      <div class="col-md-6 mb-5">
+        <img src="img/9.jpg" class="card-img-top" calt="">
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-    <path
-      fill="#ffffff"
-      fill-opacity="1"
-      d="M0,64L48,74.7C96,85,192,107,288,128C384,149,480,171,576,160C672,149,768,107,864,117.3C960,128,1056,192,1152,224C1248,256,1344,256,1392,256L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-    ></path>
-  </svg>
 </section>
 <!-- Akhir Project -->
+
+
 <!-- Contact -->
-<section id="Contact">
-  <div class="container">
-    <div class="row text-center mb-5">
-      <div class="col">
-        <h2>Hubungi Kita</h2>
+<section id="contact">
+  <div class="container font">
+    <div class="row text-center">
+      <div class="col mt-5">
+        <h3>Hubungi Kita</h3>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -174,86 +247,51 @@
       </div>
     </div>
   </div>
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#73a9ad" fill-opacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 
 </section>
 
 <!-- Akhir Contact -->
 <!-- footer -->
-<footer class="bg-body-tertiary text-center">
-  <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <!-- Section: Social media -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a
-      data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #3b5998;"
-        href="#!"
-        role="button"
-        ><i class="fa fa-facebook-f"></i
-      ></a>
-
-      <!-- Twitter -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #55acee;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-twitter"></i
-      ></a>
-
-      <!-- Google -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #dd4b39;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-google"></i
-      ></a>
-
-      <!-- Instagram -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #ac2bac;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
-
-      <!-- Linkedin -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #0082ca;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
-      <!-- Github -->
-      <a
-        data-mdb-ripple-init
-        class="btn text-white btn-floating m-1"
-        style="background-color: #333333;"
-        href="#!"
-        role="button"
-        ><i class="fab fa-github"></i
-      ></a>
-    </section>
-    <!-- Section: Social media -->
+<div class="container-fluid bg-secondary-subtle mt-5 py-5">
+  <div class="container py-5 font">
+      <div class="row ">
+          <div class="col-md-5">
+              <h4 class="text-primary mb-4">Ponpes Miftahus Sa'adah</h4>
+              <p class="mb-2"><i class="bi-geo-alt text-primary me-3"></i>Dusun Pahing Desa Kalimanggis wetan</p>
+              <p class="mb-2"><i class="bi-telephone text-primary me-3"></i>0877******</p>
+              <p class="mb-2"><i class="bi-envelope-at text-primary me-3"></i>email@example.com</p>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-primary mb-4">Sosial Media</h4>
+            <p class="mb-2"><i class="bi-facebook text-primary me-3"></i>Miftahus Sa'adah</p>
+            <p class="mb-2"><i class="bi-tiktok text-primary me-3"></i>Miftahus Sa'adah</p>
+            <p class="mb-2"><i class="bi-instagram text-primary me-3"></i>Miftahus Sa'adah</p>
+         </div>
+         <div class="col-md-3">
+          <h4 class="text-primary mb-4">Tag</h4>
+          <p class="mb-2"><i class="bi-house text-primary me-3"></i>Home</p>
+          <p class="mb-2"><i class="bi-card-image text-primary me-3"></i> Galeri</p>
+          <p class="mb-2"><i class="bi-archive text-primary me-3"></i>About</p>
+       </div>
+          </div>
+      </div>
   </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(10, 10, 10, 0.05);">
-    © 2024 Copyright Miftahus Sa'adah
+</div>
+<!-- Footer End -->
+<!-- Copyright Start -->
+<div class="container-fluid copyright py-3">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-1 mb-md-0">
+              &copy; <a class="fw-medium" href="#">MI AS Sa'adah</a>,2024 All Right Reserved.
+          </div>
+          <div class="col-md-6 text-center text-md-end mb-1 mb-md-0">
+             <p class="me-0 bi-person">Powered BY Ilham Maulana</p>
+        </div>
+      </div>
   </div>
-  <!-- Copyright -->
-</footer>
+</div>
+<!-- Copyright End -->
 <!-- akhir footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
